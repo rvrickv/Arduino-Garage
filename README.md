@@ -13,10 +13,11 @@ So if you have a better way of doing some of this stuff, I'm totally open to sug
 
 The biggest challenge so far is "noise" in the sensor data. They are rock solid with large/flat objects. But can struggle with curvy car shapes and especially with empty spaces or cluttered garages. I've tried many techniques to smooth the data but now am running into performace issues with the MCUs. It will likely be magnified with the ATTiny85.
 
-The code uses a few libraries. Among them:
+The code uses a few awesome libraries that made this project super easy. Among them:
 
-NewPing   // Awesome sensor librarion. Much more flexible than the UltraSonic library in Arduino
-FastLED   // Amazing library for controlling indivudually addressable LEDs
+NewPing   // sensor library. Much more flexible than the UltraSonic library in Arduino
+
+FastLED   // library for controlling indivudually addressable LEDs
 
 Usage is simple. A parking distance is set by default (100cm). As the car approaches the sensor, the LED strip/ring fills with Green LEDs, until the parkign position is reached, where the LEDs turn Red. 
 
