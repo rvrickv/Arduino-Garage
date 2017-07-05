@@ -4,7 +4,8 @@
 
 #include "FastLED.h"
 #include "NewPing.h"
-//#include "QuickStats.h"
+
+//#include "QuickStats.h" // Used to calculate the mode if using Mode sampling. Slow, even on 8266 at 160 MHz. 
 
 #define DATA_PIN D3       // Data pin for FastLED LED control
 #define TRIGGER D5        // Pin used to trigger HC-SR04
