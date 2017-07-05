@@ -53,7 +53,7 @@ void loop() {
 
   uint16_t distance = 0;
 
-  // Mode samling technique - slower but reduces outliers
+  // Mode sampling technique - slower but reduces outliers
   // Take n readings, store them in the array
   //for (int i=0; i<SAMPLE_READINGS; i++){
     //readings[i]  = round_to_base(sensor.convert_cm(sensor.ping_median()));
@@ -63,7 +63,7 @@ void loop() {
     Serial.println(readings[i]);
     */
   //}
-  // now extract  the mode to eliminate outliers
+  // now extract the mode to eliminate outliers
   //distance =  uint16_t(stats.mode(readings,SAMPLE_READINGS));
   //Serial.print("Mode result is: ");
 
