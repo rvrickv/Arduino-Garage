@@ -19,6 +19,8 @@ NewPing   // sensor library. Much more flexible than the UltraSonic library in A
 
 FastLED   // library for controlling individually addressable LEDs
 
+<H1>Usage</h1>
+
 Usage is simple. A parking distance is set by default (100cm). As the car approaches the sensor, the LED strip/ring fills with Green LEDs, until the parking position is reached, where the LEDs turn Red.
 
 After a few seconds parked (Red), the LEDs fade out.
